@@ -2,7 +2,7 @@ import cv2
 import time
 import imutils
 
-cam = cv2.VideoCapture("VID-20210612-WA0001.mp4")
+cam = cv2.VideoCapture(0)
 time.sleep(1)
 
 firstFrame = None
